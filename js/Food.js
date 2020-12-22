@@ -17,7 +17,16 @@ class Food {
         this.foodStock--;
         this.frameFeed = 20;
     }
-
+    bedroom(){
+        background(bedroom, 550, 550); 
+     }
+     garden(){
+         background(garden, 550, 550); 
+     }
+     washroom(){
+         background(washroom, 550, 550); 
+     }
+ 
     display(){
         var x=80, y=100;
 
